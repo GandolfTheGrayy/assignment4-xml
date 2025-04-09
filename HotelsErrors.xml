@@ -2,57 +2,55 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://GandolfTheGrayy.github.io/assignment4-xml/Hotels.xsd">
 
-  <!-- Error 1: Root element should be <Hotels>, not <Hotel> (This is now fixed just for syntax validity) -->
+	<!-- Error 1: Root element should be <Hotels>, not <Hotel> (This is now fixed just for syntax validity) -->
 
-  <Hotel Rating="2.0">
-    <Name>Budget Inn</Name>
-    <!-- Error 2: Missing required Address attribute "Number" -->
-    <Address>
-      <Street>Eastern Blvd</Street>
-      <City>Montgomery</City>
-      <State>AL</State>
-      <Zip>36117</Zip>
-      <NearestAirport>Montgomery Regional Airport</NearestAirport>
-    </Address>
-  </Hotel>
+	<Hotel Rating="2.0">
+		<Name>Budget Inn</Name>
+		<!-- Error 2: Missing required Address attribute "Number" -->
+		<Address>
+			<Street>Eastern Blvd</Street>
+			<City>Montgomery</City>
+			<State>AL</State>
+			<Zip>36117</Zip>
+			<NearestAirport>Montgomery Regional Airport</NearestAirport>
+		</Address>
+	</Hotel>
 
-  <Hotel>
-    <Name>Travel Inn</Name>
-    <!-- Error 3: Missing <Phone> element -->
-    <Address Number="401">
-      <Street>South Westlake Ave</Street>
-      <City>Los Angeles</City>
-      <State>CA</State>
-      <Zip>90057</Zip>
-      <NearestAirport>LAX</NearestAirport>
-    </Address>
-  </Hotel>
+	<Hotel>
+		<Name>Travel Inn</Name>
+		<!-- Error 3: Missing <Phone> element -->
+		<Address Number="401">
+			<Street>South Westlake Ave</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90057</Zip>
+			<NearestAirport>LAX</NearestAirport>
+		</Address>
+	</Hotel>
 
-  <Hotel>
-    <Name>Super 8</Name>
-    <Phone>314-254-6918</Phone>
-    <Address Number="9798">
-      <Street>St Charles Rock Rd</Street>
-      <City>St. Louis</City>
-      <State>MO</State>
-      <!-- Error 4: Missing closing tag for <Address> was fixed here -->
-      <Zip>63114</Zip>
-      <NearestAirport>STL</NearestAirport>
-    </Address>
-  </Hotel>
+	<Hotel>
+		<Name>Super 8</Name>
+		<Phone>314-254-6918</Phone>
+			<Street>St Charles Rock Rd</Street>
+			<City>St. Louis</City>
+			<State>MO</State>
+			<!-- Error 4: Missing closing tag for <Address> -->
+			<Zip>63114</Zip>
+			<NearestAirport>STL</NearestAirport>
+	</Hotel>
 
-  <Hotel>
-    <!-- Error 5: Two <Name> elements, but only one allowed -->
-    <Name>Sunset Inn</Name>
-    <Name>Extra Name</Name>
-    <Phone>702-735-7180</Phone>
-    <Address Number="910">
-      <Street>Fremont St</Street>
-      <City>Las Vegas</City>
-      <State>NV</State>
-      <Zip>89101</Zip>
-      <NearestAirport>Harry Reid International Airport</NearestAirport>
-    </Address>
-  </Hotel>
+	<Hotel>
+		<!-- Error 5: Two <Name> elements, but only one allowed -->
+		<Name>Sunset Inn</Name>
+		<Name>extraa</Name>
+		<Phone>702-735-7180</Phone>
+		<Address Number="910">
+			<Street>Fremont St</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89101</Zip>
+			<NearestAirport>Harry Reid International Airport</NearestAirport>
+		</Address>
+	</Hotel>
 
 </Hotels>
