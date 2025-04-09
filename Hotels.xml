@@ -1,30 +1,126 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://GandolfTheGrayy.github.io/assignment4-xml/Hotels.xsd">
 
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address Number="11">
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
+  <Hotel Rating="2.0">
+    <Name>Budget Inn</Name>
+    <Phone>334-288-8844</Phone>
+    <Address Number="2101">
+      <Street>Eastern Blvd</Street>
+      <City>Montgomery</City>
+      <State>AL</State>
+      <Zip>36117</Zip>
+      <NearestAirport>Montgomery Regional Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="1.9">
+    <Name>Knights Inn Phoenix North</Name>
+    <Phone>602-993-1595</Phone>
+    <Phone>888-315-2378</Phone>
+    <Address Number="2735">
+      <Street>W Sweetwater Ave</Street>
+      <City>Phoenix</City>
       <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
+      <Zip>85029</Zip>
+      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="1.8">
+    <Name>Travel Inn</Name>
+    <Phone>213-389-1888</Phone>
+    <Address Number="401">
+      <Street>South Westlake Ave</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90057</Zip>
+      <NearestAirport>Los Angeles International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="1.5">
+    <Name>HomeTowne Studios Denver - Airport/Aurora</Name>
+    <Phone>303-373-4242</Phone>
+    <Address Number="3705">
+      <Street>Chambers Rd</Street>
+      <City>Aurora</City>
+      <State>CO</State>
+      <Zip>80011</Zip>
+      <NearestAirport>Denver International Airport</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel>
-    <Name>Hilton Garden Inn</Name>
-    <Phone>602-123-4567</Phone>
-    <Address Number="3003">
-      <Street>Washington Ave</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85034</Zip>
-      <NearestAirport>Phoenix Sky Harbor</NearestAirport>
+    <Name>Budget Inn Express</Name>
+    <Phone>904-764-1732</Phone>
+    <Address Number="5921">
+      <Street>Moncrief Rd</Street>
+      <City>Jacksonville</City>
+      <State>FL</State>
+      <Zip>32209</Zip>
+      <NearestAirport>Jacksonville International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="2.0">
+    <Name>Red Carpet Inn</Name>
+    <Phone>502-778-4444</Phone>
+    <Address Number="3300">
+      <Street>Dixie Hwy</Street>
+      <City>Louisville</City>
+      <State>KY</State>
+      <Zip>40216</Zip>
+      <NearestAirport>Louisville International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="1.6">
+    <Name>Studio 6 New Orleans</Name>
+    <Phone>504-302-7300</Phone>
+    <Phone>504-302-7399</Phone>
+    <Address Number="12330">
+      <Street>I-10 Service Rd</Street>
+      <City>New Orleans</City>
+      <State>LA</State>
+      <Zip>70128</Zip>
+      <NearestAirport>Louis Armstrong New Orleans International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="1.8">
+    <Name>Knights Inn Detroit Area</Name>
+    <Phone>248-398-6000</Phone>
+    <Address Number="27300">
+      <Street>W Eight Mile Rd</Street>
+      <City>Southfield</City>
+      <State>MI</State>
+      <Zip>48033</Zip>
+      <NearestAirport>Detroit Metropolitan Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="1.7">
+    <Name>Super 8 St. Louis Airport</Name>
+    <Phone>314-254-6918</Phone>
+    <Address Number="9798">
+      <Street>St Charles Rock Rd</Street>
+      <City>St. Louis</City>
+      <State>MO</State>
+      <Zip>63114</Zip>
+      <NearestAirport>St. Louis Lambert International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Sunset Inn</Name>
+    <Phone>702-735-7180</Phone>
+    <Address Number="910">
+      <Street>East Fremont St</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89101</Zip>
+      <NearestAirport>Harry Reid International Airport</NearestAirport>
     </Address>
   </Hotel>
 
