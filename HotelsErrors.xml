@@ -1,9 +1,8 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="https://GandolfTheGrayy.github.io/assignment4-xml/Hotels.xsd">
-  
-  <!-- Error 1: Root element should be <Hotels>, not <Hotel> -->
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://GandolfTheGrayy.github.io/assignment4-xml/Hotels.xsd">
+
+  <!-- Error 1: Root element should be <Hotels>, not <Hotel> (This is now fixed just for syntax validity) -->
 
   <Hotel Rating="2.0">
     <Name>Budget Inn</Name>
@@ -36,10 +35,10 @@
       <Street>St Charles Rock Rd</Street>
       <City>St. Louis</City>
       <State>MO</State>
-      <!-- Error 4: Missing closing tag for <Address> -->
+      <!-- Error 4: Missing closing tag for <Address> was fixed here -->
       <Zip>63114</Zip>
       <NearestAirport>STL</NearestAirport>
-
+    </Address>
   </Hotel>
 
   <Hotel>
@@ -56,4 +55,4 @@
     </Address>
   </Hotel>
 
-</Hotel>
+</Hotels>
